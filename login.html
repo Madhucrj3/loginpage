@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-contd" id="logincontddis">
+        <div class="login-logo">
+            <img src="https://res.cloudinary.com/dqgpcuxoj/image/upload/v1675148408/Group_smuhb4.png" alt="">
+        </div>
+        <div class="login-descr">
+            <div class="logindes">
+                <img src="https://res.cloudinary.com/dqgpcuxoj/image/upload/v1675148763/user_1_itsqzs.svg" alt="">
+                <input type="text" name="username" id="username" placeholder="USERNAME">
+            </div>
+            <p id="userwrong"></p>
+            <div class="logindes">
+                <img src="https://res.cloudinary.com/dqgpcuxoj/image/upload/v1675148666/lock_vcxpqc.svg" alt="">
+                <input type="password" name="password" id="password" placeholder="PASSWORD">
+            </div>
+            <ul id="passwordwrong">
+            </ul>
+        </div>
+        <div class="loginbtn">
+            <button id="logbtn">LOGIN</button>
+            <button id="forgetbtn">Forgot password ?</button>
+        </div>
+    </div>
+    <div class="welcome" id="welcomecontddis">
+        <h1>Congratulations!</h1>
+        <p>You Have Sucessfully Loged in...</p>
+        <button id="logoutbtn">LOGOUT</button>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
